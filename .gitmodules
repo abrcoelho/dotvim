@@ -13,3 +13,9 @@
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = git@github.com:sjl/gundo.vim.git
+[submodule "bundle/webapi.vim"]
+	path = bundle/webapi.vim
+	url = git@github.com:mattn/webapi-vim.git
+[submodule "bundle/gist.vim"]
+	path = bundle/gist.vim
+	url = git@github.com:mattn/gist-vim.git
