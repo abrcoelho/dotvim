@@ -1,4 +1,4 @@
-Wanna know how to do this? Check it out [Syncrhonizing plugins with Git Submodules and Pathogen](1)
+Wanna know how to do this? Check it out [http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/](1)
 
 Installation:
 
@@ -10,7 +10,6 @@ Create symlinks:
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
 Switch to the `~/.vim` directory, and fetch submodules:
-
 
       cd ~/.vim
       git submodule init
