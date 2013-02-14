@@ -106,3 +106,6 @@ set statusline+=\ \ [TYPE=%Y]
 set statusline+=\ \ [POS=%04l,%04v]
 set statusline+=\ \ [%p%%]
 set statusline+=\ \ [LEN=%L]
+
+" Gundo mappings
+nnoremap <F5> :GundoToggle<CR>
