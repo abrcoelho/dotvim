@@ -75,6 +75,11 @@ imap <c-l> <space>=><space>
 " Rails.vim
 set wildmode=list:longest,list:full
 
+" Ctrlp.vim
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+
 " Moving between tabs with CMD-number
 map <D-S-]> gt
 map <D-S-[> gT
