@@ -14,13 +14,10 @@ set visualbell                  " stop beeping
 " set relativenumber              " show line numbers relative to the cursor
 
 " Persistent undo - http://amix.dk/blog/post/19548
-set undodir=~/.vim/.undodir
+set undodir=~/.vim/undodir
 set undofile
-set undolevels=100
-
-" Stores backup files (filename.ext~) and swap (.swp) files inside .vim directory
-set backupdir=~/.vim/.backup
-set directory=~/.vim/.swap_files
+set undolevels=1000
+set undoreload=10000
 
 " Whitespace
 set nowrap                      " don't wrap lines
